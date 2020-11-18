@@ -9,4 +9,13 @@
   * https://laravel.com/docs/8.x/homestead     
 
 ### Build environment
-  * to be added
+    folders:     
+        - map: ~/code/ojs1    
+          to: /home/vagrant/code    
+
+    sites:     
+      - map: ojs3.2.dev    
+        to: /home/vagrant/code/public    
+        type: apache    
+        php: "7.3"    
+
